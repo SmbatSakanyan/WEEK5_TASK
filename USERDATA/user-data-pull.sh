@@ -18,5 +18,5 @@ aws ecr get-login-password --region us-west-2 | docker login --username AWS --pa
 
 sleep 180
 
-docker pull 490485542279.dkr.ecr.us-west-2.amazonaws.com/week4_ecr:latest
-docker run -p 3000:3000 490485542279.dkr.ecr.us-west-2.amazonaws.com/week4_ecr
+docker pull 490485542279.dkr.ecr.us-west-2.amazonaws.com/week5_ecr:latest
+docker run -p 3000:3000 490485542279.dkr.ecr.us-west-2.amazonaws.com/week5_ecr
