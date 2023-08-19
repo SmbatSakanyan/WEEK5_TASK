@@ -35,3 +35,8 @@ resource "aws_lb_listener" "ALB_listener" {
   }
 }
 
+output "lb_dns_name" {
+  description = "The DNS name of the load balancer"
+  value       = aws_lb.ALB.dns_name
+}
+
